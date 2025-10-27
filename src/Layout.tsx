@@ -1,7 +1,7 @@
 /* This file is an example. Delete it at will. */
 
 /**
- * @this {import("./types").ThisContext}
+ * @this {import("./types.d").ThisContext}
  */
 export default function Layout({
   title = "",
@@ -23,7 +23,7 @@ export default function Layout({
             rel="stylesheet"
             href={`/index.css?${process.env.BUILD_TIME}`}
           />
-          <script type="module" src={`/index.js?${process.env.BUILD_TIME}`} />
+          <script type="module" src={`/index.ts?${process.env.BUILD_TIME}`} />
           <title>{title}</title>
         </head>
         <body>
