@@ -5,11 +5,11 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/vercel.js"
+      "destination": "/api/vercel.ts"
     }
   ],
   "functions": {
-    "api/vercel.js": {
+    "api/vercel.ts": {
       "includeFiles": "./**/*"
     }
   }

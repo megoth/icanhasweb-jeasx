@@ -6,6 +6,7 @@ import Layout from "./Layout";
 const RECIPES = (await (await fetch("https://dummyjson.com/recipes")).json())
   .recipes;
 
+// @ts-ignore
 const CUISINES = [...new Set(RECIPES.map(({ cuisine }) => cuisine))].toSorted();
 
 /**
