@@ -5,9 +5,16 @@
     "start": "jeasx start",
     "build": "jeasx build",
     "dev": "jeasx dev",
-    "clean": "jeasx clean"
+    "clean": "jeasx clean",
+    "build:posts": "tsx --tsconfig tsconfig.node.json ./src/scripts/buildPosts.ts"
   },
   "dependencies": {
     "jeasx": "2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "yaml": "^2.8.1"
   }
 }
