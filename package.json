@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "start": "jeasx start",
-    "build": "jeasx build",
+    "build": "npm run build:blog && jeasx build",
     "dev": "jeasx dev",
     "clean": "jeasx clean",
     "build:blog": "tsx --tsconfig tsconfig.node.json src/scripts/buildBlog.ts"

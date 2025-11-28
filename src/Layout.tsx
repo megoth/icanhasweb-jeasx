@@ -23,7 +23,6 @@ export default function Layout({
             rel="stylesheet"
             href={`/index.css?${process.env.BUILD_TIME}`}
           />
-          <script type="module" src={`/index.ts?${process.env.BUILD_TIME}`} />
           <title>{title}</title>
         </head>
         <body>
