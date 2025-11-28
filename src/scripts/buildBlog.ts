@@ -2,8 +2,9 @@ import path from "node:path";
 import {lstat, opendir, readFile, writeFile} from "node:fs/promises";
 import YAML from 'yaml'
 
-type Post = {
+export type Post = {
     title: string;
+    url: string;
     author: string;
     date: string;
     template: string;
@@ -11,10 +12,11 @@ type Post = {
     original: string;
 }
 
-const postsPath = path.join('src', 'posts');
+const postsPath = path.join('src', 'blog');
 
 try {
     const postsDir = await opendir(postsPath);
+    const posts = [] as Array<Post>;
     for await (const dirent of postsDir) {
         const postDirPath = path.join(postsPath, dirent.name);
         if (!(await lstat(postDirPath)).isDirectory()) {
@@ -24,6 +26,8 @@ try {
         const [_, unparsedMeta, ...unparsedContent] = (await readFile(markdownPath, {encoding: 'utf-8'})).split('---')
         const meta = YAML.parse(unparsedMeta) as Post;
         meta.tags = (meta.tags as string)?.split(', ') || [];
+        meta.url = `/blog/${dirent.name}`;
+        posts.push(meta);
         const content = unparsedContent.join('---');
         const tsxPath = path.join(postDirPath, '[index].tsx');
         await writeFile(tsxPath, `
@@ -37,6 +41,19 @@ export default function () {
     )
 }`)
     }
+    const sortedPosts = posts.sort((a, b) => a.date > b.date ? 1 : -1);
+    const indexPath = path.join(postsPath, '[index].tsx');
+    await writeFile(indexPath, `
+import Layout from "../Layout"
+import PostList from "../PostList"
+
+export default function () {
+    return (
+        <Layout title="Blog posts">
+            <PostList posts={${JSON.stringify(sortedPosts)}} />
+        </Layout>
+    )
+}`)
 } catch (err) {
     console.error(err);
 }
