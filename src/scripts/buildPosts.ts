@@ -21,10 +21,10 @@ try {
             continue;
         }
         const markdownPath = path.join(postDirPath, 'index.md');
-        const [_, unparsedMeta, unparsedContent] = (await readFile(markdownPath, {encoding: 'utf-8'})).split('---')
+        const [_, unparsedMeta, ...unparsedContent] = (await readFile(markdownPath, {encoding: 'utf-8'})).split('---')
         const meta = YAML.parse(unparsedMeta) as Post;
         meta.tags = (meta.tags as string)?.split(', ') || [];
-        const content = unparsedContent.replaceAll('/-/-/-', '---');
+        const content = unparsedContent.join('---');
         const tsxPath = path.join(postDirPath, '[index].tsx');
         await writeFile(tsxPath, `
 import BlogPost from "../../BlogPost"
