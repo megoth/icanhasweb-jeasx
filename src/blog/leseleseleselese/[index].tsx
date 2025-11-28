@@ -8,7 +8,7 @@ export default function () {
 
 <p>WOW!</p>
 <p>Syns det er rimelig å begynne med dette ord, når jeg ser hvor lenge det er siden jeg skrev noe sist. Bortimot 4 måneder. Denne bloggen har vel blitt kategorisert som død av mange (eller få, ettersom det ikke er så mange som følger med her likevel=)). Men om det en annen gang, nok innlegg har blitt skrevet om skrivetørken som oppstår hos alle iblant.</p>
-<span class="more"></span>
+
 <p>Jeg vil skrive noen om ord om mine internettvaner, da vennene mine har gitt meg inntrykk om at jeg bruker veldig mye tid på internett.</p>
 <p>Noe som er helt riktig=)</p>
 <p>Det henger nok sammen med det faktum at jeg elsker å ta til meg informasjon. Og da er det vel rett og rimelig at man henger mye på internett, hvor informasjon flyter fritt (<a href="http://en.wikipedia.org/wiki/Network_neutrality">for nå iallefall</a>).</p>

@@ -11,7 +11,7 @@ At work we’ve been working with AngularJS for a few months, and we are very pl
 
 But my latest task have left me somewhat puzzled, and I write this post in the hope that somebody out there know what it was about, and also because I just ain’t able to summarize it into a proper question on a forum or what-have-you. So here goes.
 
-<span class="more"></span>
+
 
 The task required me to work with a 3rd-party service through an iframe. The service in question is [Checkbox Survey](http://www.checkbox.com/), which we use to, well, make surveys. We embed a given survey within the iframe, and run some code that looks for a specific ID within the embedded page. The gist below shows part of the directive that handles how we “look” for this.
 

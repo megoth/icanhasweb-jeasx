@@ -11,7 +11,7 @@ The scene has great potential that can resolve in great services/tools, but I do
 
 In this article I want to share my thoughts on what such an alternative should entail, and what benefits and challenges we look at.
 
-<span class="more"></span>
+
 
 (If it is not obvious; these are my thoughts and ideas, and they are far from complete. I'm eager to learn more, and invite you to a productive conversation in the [comments](#disqus_thread) or other places of your choice where a productive discussion can be facilitated.)
 

@@ -13,7 +13,7 @@ export default function () {
 <p>Takk til politiet som, etter min viten, har tekket situasjonen bra, og prøver å opprette ro og orden i våre gater igjen.</p>
 <p>Takk til demonstrantene som møtte opp på Youngstorget, og var med på fakkeltoget til Rådhuset (jeg var ikke med selv, det angrer jeg på nå…). Det er viktig å vise sin støtte mot urettferdigheten.</p>
 <p>La oss håpe at situasjonen på Gazastripen blir bedre snart, og at det kan finnes en løsning på konflikten som gjør så mange vondt.</p>
-<span class="more"></span>
+
 <p><strong>Et knippe lenker til videoklipp som dekker voldelighetene i Oslo</strong></p>
 <ul>
 <li>VG: <a href="http://atvs.vg.no/player/?id=20635">Se kaoset som oppstod i Oslo sentrum her</a></li>

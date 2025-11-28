@@ -8,7 +8,7 @@ export default function () {
 
 <p>Jeg er student, arbeider deltid som systemutvikler, er engasjert i studentforening og har noen sideprosjekter. Utover tiden produksjonsnivået krever, så resulterer det også i uhorvelige mengder epost. Mellom 30 og 50 epost vil jeg anslå er innom innboksen min i hverdagene, et tall som går ned til rundt 10-20 i helgedagene. Før sommeren klarte jeg ikke å håndtere denne mengden, noe som gjorde at jeg i eksamensperioden fikk nok, og brukte x antall timer på å rydde opp, og etablere et system som kunne håndtere mengden (prokrastinering før eksamen er et kjent fenomen, tross alt).</p>
 <p>Etter å ha snakket med Henrik Lied (en av fadderungene mine under&nbsp;<a href="http://fadderuke.no">IFI Fadderordning</a>) om håndtering av epost, tenkte jeg at jeg skulle dele min tilnærming, da han syntes den virket fornuftig. Det finnes tross alt mange tilnærminger på hvordan man kan effektivisere arbeidet med epost. Det finnes også mer helhetlige systemer, som <a href="http://en.wikipedia.org/wiki/Getting_Things_Done"><abbr title="Getting Things Done">GTD</abbr></a>. Men dette innlegget vil handle om epost og hvilke tiltak jeg har tatt i bruk og som gjør hverdagen min enklere. Jeg bruker primært tjenesten <a href="http://gmail.com/">Gmail</a>, og funksjonene som beskrives er hentet derfra.</p>
-<span class="more"></span>
+
 <h3>Grunnprinsipper</h3>
 <p>Før jeg forklarer selve funksjonene, så vil jeg greie ut om hva tankene bak bruken av dem er. Er du ikke så interessert i det, gå rett til <a href="#bruk">bruken</a>.</p>
 <h4>Innboksen skal være tom etter besøk</h4>

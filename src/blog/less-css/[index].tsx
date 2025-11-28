@@ -15,7 +15,7 @@ export default function () {
 #header .login ul &#123; ... &#125;</pre>
 <p>I like my html to be semantically good structured (or as good as it can get when keeping certain obstacles in mind *cough*IE6*snirk*). That means not overloading it with classes that doesn’t add meaning (such as clearfix, which I use in all of my projects). CSS doesn’t have a good way of reusing this code within the stylesheet, and this is a shame.</p>
 <p>And then there’s the classic need for variables. When trying out different color-schemes in a design, it’s a pain if you have to update a color-code multiple places in the stylesheet. Even more fun if they’re scattered throughout the document. And what if you the color-scheme to front different colors, each related to a base-color?</p>
-<span class="more"></span>
+
 <h3>LESS to the rescue!</h3>
 <p><a href="http://lesscss.org/">LESS</a> provides a solution to all of these problems. Mixins, Nested Rules, Variables and Operations are the features fronted by the developers, Alexis Sellier and Dmitry Fadeyev. I’m especially fond of the two former, which allow me to write code such as:</p>
 <pre>.clearfix &#123; /* rules for clearfix-hack */ &#125;<br />

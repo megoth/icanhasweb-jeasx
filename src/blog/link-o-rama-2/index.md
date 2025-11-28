@@ -9,7 +9,7 @@ original: https://megoth.wordpress.com/2012/01/15/link-o-rama-2/
 
 <p>I dag har jeg lest mye – veldig mye syns jeg. Jeg har gått gjennom listen av tweets som ble favorisert i uken som var. Noe av det hadde jeg lest tidligere, og var mer en formalitet at jeg skumleste gjennom dem for å legge dem til i delicious.</p>
 <p>Jeg innser at mesteparten av lesingen min foregår mens jeg sitter på trikken eller banen, på vei til noe og trenger å slå av tid. Konsumeringen ellers foregår ved at jeg oppdaterer meg på twitter-tidslinjen min, og favoriserer de tweetene som lenker til sider jeg har lyst å lese. Mtp tiden jeg har brukt på å lese meg opp på de sidene i dag, så innser jeg at jeg må begrense favoriseringen min. Så får vi se hvordan uken som kommer blir.</p>
-<span class="more"></span>
+
 <h2>Personlighetsvern VS utlevering av åpne data</h2>
 <p>Men resultatet av lesingen er at jeg har en liste med sider jeg gjerne vil dele. Det viktigste temaet i uken som var er saken rundt <a href="http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=988557846">Rekruttering AS</a>, som <a href="https://twitter.com/lstor">Lars Storjord</a> gjorde meg var på. Naturlig nok er det mest negativ kritikk jeg har lest.</p>
 <ul>

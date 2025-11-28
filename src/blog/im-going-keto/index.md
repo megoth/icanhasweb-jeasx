@@ -9,7 +9,7 @@ tags: keto, ketogenic, diet, preparations
 
 A couple of weeks ago a friend of mine asked if I wanted to join him doing keto (that is, [the ketogenic diet](https://en.wikipedia.org/wiki/Ketogenic_diet)). I've heard talks of it before, but hadn't really considered it as something for me. But at that moment, I was intrigued by the idea of trying it out. And so, the past weeks, I've been preparing for it.
 
-<span class="more"></span>
+
 
 For those not into it, the goal of the ketogenic diet is to force the body to burn fats instead of carbohydrates. To do this, you want to lower your intake of carbohydrates as much as possible, and instead focus on protein and fat. I've also been advised to get fiber somewhere (like avocado) and take multi-vitamins (without vitamin K) and magnesium-supplements.
 

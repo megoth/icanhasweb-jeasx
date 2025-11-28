@@ -7,7 +7,7 @@ export default function () {
             
 
 <p>Dette er en sorgens dag. Jeg innrømmer at jeg ikke vet hvordan jeg skal takle situasjonen, dette er noe jeg aldri kunne tenkt meg skulle skje her i Norge. Men kanskje det å skrive om det hjelper, om bare for å få samlet tankene. Kanskje det jeg skriver kan hjelpe andre med det samme.</p>
-<span class="more"></span>
+
 <p>Jeg er forbanna. Jeg er sorgfull. Jeg vandrer fra å være forrykt det ene øyeblikket til å kjenne tårene presse på det andre. Prøver å holde meg oppdatert på flere kanaler, NRK står på TV-en, sjekker nettavisene kontinuerlig, Twitter, Facebook, IRC…</p>
 <p>Hva som skjedde i går er absurd. Jeg satt på jobb i Forskningsveien, over en halv mil fra R4, og jeg hørte smellet. Om trykkbølgen traff bygget er jeg usikker på, det blåste kraftig i går. Jeg trodde det var torden. Hadde det bare vært så vel…</p>
 <p>Under ett minutt etter så jeg på IRC at folk lurte på hva smellet var. Alle i Oslo hadde kjent det. Etter et par minutter blir det lenket til søke-siden om Oslo på Twitter. Ordet bombe blir nevnt. Terror kommer raskt etter. Har Norge opplevd et terrorangrep? Twitter blir en kilde til raske oppdateringer om det som skjer. Når det første bildet fra stedet kommer ser jeg hvor ille det er. Bildene og videoene som kommer etter blir verre og verre.</p>

@@ -7,7 +7,7 @@ export default function () {
             
 
 <p>Dem som kjenner meg vet at jeg er en stor fan av Civilization. Denne serien med spill vil noen påstå kjører det samme konseptet om og om igjen, til den grad at det blir lite nytt under solen når nye utgivelser slippes. Jeg syns hvert spill leverer såpass forskjellige spillopplevelser at de står alle godt plantet på egne bein. Og nå kommer det en ny utgivelse av spillet, <a href="http://www.civilizationrevolution.com/">Civilization Revolution</a>. Spillet er designet for konsoller, og vil utgis til XBox 360, PS3 og Nintendo DS, og er dermed det første i rekken som ikke utgis til pc i det hele tatt. Jeg hever mitt øyebryn, tenker “javel”, og avventer spent resultatet.</p>
-<span class="more"></span>
+
 <p>Jeg er i utgangspunktet skeptisk til en Civilization-utgivelse som ikke baserer seg på pc-systemets muligheter, på grunnlag av to ting:</p>
 <ul>
 <li>Spillet er for omfattende til å nøye seg med konsollenes kontrollmuligheter<br />

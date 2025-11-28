@@ -9,7 +9,7 @@ original: http://icanhasweb.net/blog/2012/12/projects-2013/
 
 I like to keep myself occupied, previously exemplified by my involvement in several student organizations while I studied (one in which I still partake with my time and effort, albeit in diminishing manner). Since I completed my master thesis this fall, I've tried to limit my involvement, and concentrate on work and getting on route with my life as a professional. I believe myself to be on the right path now, and hope to increase my involvement once again, as this post will describe.
 
-<span class="more"></span>
+
 
 So what do I hope to involve myself in? Well, there are several projects out there, several events I want to attend, and several talks I want to hold. So lets just get on with it.
 

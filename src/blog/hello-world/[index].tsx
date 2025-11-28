@@ -7,7 +7,7 @@ export default function () {
             
 
 <p>Da har jeg satt i gang med enda en blogg. Min tidligere ligger/lå på <a href="http://arnehassel.com/">arnehassel.com</a> (kan hende jeg har sagt opp avtalen nå, og at lenken ikke lenger er aktiv). Flyttingen begrunnes i at jeg ikke lenger ønsker å påkoste et webhotell som koster meg 1000-lapp i året når jeg ikke bruker det til noe fornuftig. Jeg har lyst til å lansere prosjekter jeg sysler med etterhvert, men kommer heller til å bruke gratisløsninger på nett. Om det skulle bli noe stort/seriøst/potensielt penger å tjene, så skal jeg heller se på muligheten til å leie et webhotell igjen.</p>
-<span class="more"></span>
+
 <h2>Bloggens innhold</h2>
 <p>Prinsippet mitt for å føre en weblogg er å skrive tekster som er av interesse for meg selv. Men i første omgang er dette en egotripp uten like. Jeg skriver om det som faller meg inn, interesserer meg og som jeg tror kan være greit å ha nedskrevet til en senere anledning. Om andre skulle fatte interesse for det, så er det bare gøy.</p>
 <p>Når det er sagt, så vil jeg tro at temaene hovedsaklig vil dreie seg om teknologi og innovasjoner innenfor web, da dette er det jeg interesserer meg i større grad for. I det jeg skriver dette har jeg lyst til å lage meg et lite direktiv for <a title="Wikipedia om widgets" href="http://en.wikipedia.org/wiki/Widgets">widgets</a> som er gratis. Tiden vil vise om dette kommer til å skje.</p>

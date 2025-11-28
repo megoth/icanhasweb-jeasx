@@ -15,7 +15,7 @@ export default function () {
 </tr>
 </tbody></table>
 <p>Jeg hadde den glede å delta i <a href="http://www.hovefestivalen.no/">festlighetene på Tromøya 26. – 30. juni</a>, og to av mine venner valgte å feste noen av minnene på kamera. Her presenterer jeg et knippe av bildene som har kommet til nå, og flere vil trolig komme etterhvert som jeg mottar dem.</p>
-<span class="more"></span>
+
 <p>Alle bildene lastes opp på <a href="http://picasaweb.google.com/arne.hassel/Hovefestivalen2007">min konto på Picasa Web Album</a>, så der kan det betraktes mer om man skulle ønske.</p>
 <p><a href="http://icanhasweb.net/megoth/wp-content/uploads/2007/07/n869985000_736221_6542.jpg" title="n869985000_736221_6542.jpg"><img src="http://icanhasweb.net/megoth/wp-content/uploads/2007/07/n869985000_736221_6542.jpg" alt="n869985000_736221_6542.jpg" /></a></p>
 <p><a href="http://www.thenoisettes.com/">The Noisettes</a> var blant mine favoritter.</p>

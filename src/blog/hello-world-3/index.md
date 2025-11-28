@@ -8,7 +8,7 @@ tags: blog, Wintersmith, Wordpress, JavaScript, redesign
 
 This is the first entry in my attempt at revitalizing icanhasweb.net. I've spent some time this christmas holiday to refurnish the website, rewriting the code, merging two blogs into one, and changing the design a bit.
 
-<span class="more"></span>
+
 
 **TL;DR: I've rewritten my website using Wintersmith. This will be my only blog going forward. I'll detail the ideas and choices that I've made in my next blog post.**
 

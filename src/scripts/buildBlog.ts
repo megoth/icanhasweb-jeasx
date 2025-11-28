@@ -1,6 +1,7 @@
 import path from "node:path";
 import {lstat, opendir, readFile, writeFile} from "node:fs/promises";
 import YAML from 'yaml'
+import markdownit from 'markdown-it';
 
 export type Post = {
     title: string;
@@ -13,6 +14,7 @@ export type Post = {
 }
 
 const postsPath = path.join('src', 'blog');
+const md = markdownit();
 
 try {
     const postsDir = await opendir(postsPath);
@@ -28,7 +30,9 @@ try {
         meta.tags = (meta.tags as string)?.split(', ') || [];
         meta.url = `/blog/${dirent.name}`;
         posts.push(meta);
-        const content = unparsedContent.join('---');
+        const assembledContent = unparsedContent.join('---');
+        const isHtmlRegex = /^(\s+)</;
+        const content = isHtmlRegex.test(assembledContent) ? assembledContent : md.render(assembledContent);
         const tsxPath = path.join(postDirPath, '[index].tsx');
         await writeFile(tsxPath, `
 import BlogPost from "../../BlogPost"

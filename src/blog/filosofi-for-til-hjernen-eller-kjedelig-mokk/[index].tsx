@@ -7,7 +7,7 @@ export default function () {
             
 
 <p>De fleste som leser tittelen til denne teksten vil nok si seg enig i at førstnevnte utsagn er mest riktig. Men om folk vil rettferdiggjøre utsagnet gjennom innsats i form av f.eks. lesing er mer tvilsomt. I det henseendet lever sistnevnte utsagn i sin rettmessige betydning. Alle har vi opplevd og kanskje til og med tatt del i de filosofiske samtaleemner som gjerne oppstår når nachspielet drar inn i de lange timer og hjernen tenker at “jøss, nå tenker jeg eksepsjonelt bra!” Selvfølgelig, i det øyeblikk har logikken for lengst forsvunnet ut av vinduet sammen med en av de utallige flaskene du har tylt i deg.</p>
-<span class="more"></span>
+
 <p>Filosofi blir på wikipedia definert som</p>
 <blockquote cite="http://en.wikipedia.org/wiki/Philosophy"><p>… the discipline concerned with the questions of how one should live (<a title="Ethics" href="http://en.wikipedia.org/wiki/Ethics">ethics</a>); what sorts of things exist and what are their essential natures (<a title="Metaphysics" href="http://en.wikipedia.org/wiki/Metaphysics">metaphysics</a>); what counts as genuine knowledge (<a title="Epistemology" href="http://en.wikipedia.org/wiki/Epistemology">epistemology</a>); and what are the correct principles of reasoning (<a title="Logic" href="http://en.wikipedia.org/wiki/Logic">logic</a>).</p></blockquote>
 <p>Av denne definisjonen vil jeg ta fram spørsmålet om hvordan man skal danne levemåten, etikken.</p>

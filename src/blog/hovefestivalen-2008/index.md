@@ -8,7 +8,7 @@ original: https://megoth.wordpress.com/2008/07/03/hovefestivalen-2008/
 ---
 
 <p>Du har garantert sett de merkverdige elementene brukt i noe av Hovefestivalens promoteringsmateriell. Det er ganske slående for hvordan livet føles når festivalen tar over og forandrer øya til et enestående kultursted fylt med konserter, andre evenementer og kunst.</p>
-<span class="more"></span>
+
 <p>For Toffen og gjengen har gjort det igjen. Selve området hadde fått en ansiktsløft fra fjoråret,&nbsp;nesten 100 forskjellige band og artister var satt opp, rundt 55 000 publikum var innom, og over 70 000 liter øl ble konsumert. Det er resultater som beviser at Hovefestivalen er kommet for å bli.</p>
 <p>Med så mye unnagjort, så er det vanskelig å få kritikken på alt riktig. Jeg velger derfor å starte fra en kant, og begynner med det dårlige.</p>
 <p><strong>Det negative</strong></p>

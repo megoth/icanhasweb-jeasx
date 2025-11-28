@@ -7,7 +7,7 @@ export default function () {
             
 
 <p>Dette er ikke en omtale, men snarere et utløp for frustrasjon over et aspekt av filmatiseringen av boka Den siste tempelridder. Har du ikke lest boka, anbefaler jeg deg å lese den før du leser videre her, for jeg kommer til å røpe plottet…</p>
-<span class="more"></span>
+
 <p>Det er en stund siden jeg leste <a href="http://www.lasttemplar.com">Den siste tempelridder</a>, og selv om den ikke var den beste boka jeg har lest, så har jeg anbefalt, og anbefaler fortsatt, boka til mine venner. Ikke overraskende, når en bok blir bestselger, så ble det en <a href="http://www.imdb.com/title/tt1197580/">filmproduksjon</a> av historien, med NBC i ryggen. Eller, for å være mer korrekt, en mini-tvserie i to deler. I kveld så jeg verket, og jeg må si meg dypt skuffet.</p>
 <p>Det vil si, mesteparten gjennom filmatiseringen var jeg fornøyd. Det var noen gode scener. Skuespillerne overbeviste ikke akkurat, men de gjorde en grei nok jobb. Men slutten var en fadese uten like.</p>
 <p>Har du ikke lest boka, eller er som meg og det er en stund siden man leste den, så la meg ta boka i korte trekk (fritt gjenfortalt fra <a href="http://en.wikipedia.org/wiki/The_Last_Templar">wikipedia</a> og hukommelse, så om det er noe feil får du beklage):</p>

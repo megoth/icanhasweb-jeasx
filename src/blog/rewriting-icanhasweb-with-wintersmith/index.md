@@ -8,7 +8,7 @@ tags: rewrite, wintersmith, wordpress, architecture, design choices
 
 I recently rewrote this website using [Wintersmith](http://wintersmith.io/), and in this post I'll detail the process; the ideas I had initially, the choices I faced, the decisions I took, and how the final result turned out to be. (The latest code can be seen at [megoth/icanhasweb](https://github.com/megoth/icanhasweb).)
 
-The post will not be going through how to set up a new wintersmith blog, there are other good resources on that (like [here](https://github.com/jnordberg/wintersmith#quick-start), [here](http://davidtucker.net/articles/introduction-to-wintersmith/), and [here](http://www.sitepoint.com/getting-started-wintersmith-nodejs-static-site-generator/)).<span class="more"></span>
+The post will not be going through how to set up a new wintersmith blog, there are other good resources on that (like [here](https://github.com/jnordberg/wintersmith#quick-start), [here](http://davidtucker.net/articles/introduction-to-wintersmith/), and [here](http://www.sitepoint.com/getting-started-wintersmith-nodejs-static-site-generator/)).
 
 **TL;DR: I've rewritten this website using Wintersmith. The content types are blog posts, projects, talks, and my cv. The three former supports tagging, which is made possible with a monkey patched version of wintersmith-tag. I also wrote a bit of scripts, using webpack to organize and bundle it, and included a couple of services (Disqus and Google Analytics).**
 

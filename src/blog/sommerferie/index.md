@@ -9,7 +9,7 @@ original: https://megoth.wordpress.com/2008/06/22/sommerferie/
 
 <p>DEILIG er et ord som ikke klarer helt å beskrive følelsen, men det får gjøre nytten.</p>
 <p>Hadde min siste arbeidsdag før sommeren på Senter for Helse &amp; Arbeid på fredag. Det var litt trist, for jeg har hatt mye moro der de to siste ukene hvor alt har gått i ett. Menmen, skal tilbake allerede 7. til 9. juli for å jobbe med innrapporteringen. Og mye av tiden før og etter skal jeg jobbe på Kiwi i Risør, så sommerferie med modifikasjoner er beskrivelsen jeg bør legge meg på. Men litt ren ferie blir det jo.</p>
-<span class="more"></span>
+
 <p><a href="http://hovefestivalen.no/">Hovefestivalen</a> står nemlig på døren, og imorgen farer jeg bortover for å ta del i musikkfesten. Jeg gleder meg som en unge! Foreløpig musikkplan er som følger.</p>
 <p><strong>MANDAG</strong></p>
 <ul>

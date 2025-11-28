@@ -8,7 +8,7 @@ original: https://megoth.wordpress.com/2007/03/09/medier-og-informasjon-kvalitet
 ---
 
 <p>Tankerekken jeg vil ta for meg i denne teksten kommer etter å ha lest kronikken “<a href="http://www.aftenposten.no/meninger/kronikker/article1668636.ece">Sakene mediene glemmer</a>” til Trygve Aas Olsen som var i Aftenposten lørdag 2. mars. Etter å ha lest den navnebroren “<a href="http://www.vg.no/pub/vgart.hbs?artid=168806">Saker mediene glemmer</a>“, skrevet av Guri Hjeltnes og trykket i VG 5. mars, spinte tankene bare videre.</p>
-<span class="more"></span>
+
 <p>For dem som ikke gidder å ta for seg artiklene, som jeg mener er meget godt skrevne og tar for seg en mediekritikk jeg syns er meget sunn, lager jeg en meget kort oppsummering her. Fagbladet Journalisten satte i fjor i gang et prosjekt som tar for seg saker som media ikke gir nok oppmerksomhet. Dette prosjektet er inspirert av etablerte organisasjoner som <a href="http://www.projectcensored.org/">Project Censored</a> og <a href="http://www.kl-medien.de/ina/">Initiative Nachrichtenaufklärung</a>. Dette er altså saker som burde fortjent mer oppmerksomhet på grunnlag av deres betydning for folket. Men tankerekken min tar mer feste i et av Guris avsnitt.</p>
 <blockquote><p>Juryen mottok 92 forslag, fra lokale temaer til internasjonale forhold. En erfaring juryen gjorde, var at mange saker som ble meldt på, ikke var underrapport eller «glemt». Faktisk var ingen av sakene helt «glemt», det fantes omtale i en eller form av mediene. Men dimensjoneringen av stoffet kan diskuteres.</p></blockquote>
 <p><strong>Informasjonskaoset</strong></p>

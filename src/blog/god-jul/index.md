@@ -9,7 +9,7 @@ original: https://megoth.wordpress.com/2010/12/27/god-jul/
 
 Hoi! Over en måned siden sist jeg skrev noe= P Ikke bra ikke bra… Vel, jeg håper du kan unnskylde meg, det har vært en sprø tid med eksamener, julebord, arbeid, frivillig arbeid, etc etc etc. Om du følger med på min andre blogg, <a href="http://icanhasweb.wordpress.com/">I Can Has Web</a>, så kjenner du kanskje igjen denne starten, da den er så å si oversatt direkte. Kall meg lat ^\_^
 
-<span class="more"></span>
+
 
 Jeg har akkurat skrevet et innlegg der og, hvor jeg skrev at jeg har startet arbeidet med&nbsp;master-oppgaven. Hvis du er interessert i det, ber jeg deg følge med på <a href="http://icanhasweb.wordpress.com/feed/">rss-feeden</a> dens, eller ved å <a href="http://twitter.com/megoth">følge meg på Twitter</a>. Jeg ønsker å skrive oppgaven på engelsk, med tanke på at&nbsp;publikumet&nbsp;jeg ønsker å nå ikke nødvendigvis kan norsk, og syns derfor det er naturlig å publisere oppdateringer der.
 

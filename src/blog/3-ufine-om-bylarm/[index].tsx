@@ -7,7 +7,7 @@ export default function () {
             
 
 <p>Jeg har vært på min første <a href="http://www.bylarm.no/">by:Larm</a>, og opplevelsen har vært fantastisk. Konsertene svarte til forventningene, og i flere tilfeller mye mer. Men på tross av dette var det noen irriterende momenter rundt konsertene. Kanskje mest synd er at det ikke er noe by:Larm-arrangørene kan gjøre noe med.</p>
-<span class="more"></span>
+
 <p><strong>1. Prating under konsertene</strong></p>
 <p>Det virker som om noen folk er mer opptatt av å være på konsertene enn å høre på dem. Jeg skjønner at det er kult at du og vennene dine er på by:Larm-konsert, og at dere vil prate om hvor gøy det er å være der, men kan dere ikke ta det etterpå?</p>
 <p>Den uønskede støyen ble for meg veldig påtagende under konserten med <a href="http://www.myspace.com/einarstraymusic">Einar Stray</a>, som var god, varm og melodiøs. I de mer subtile partiene, hvor lydbildet former seg mer gjennom fraværet av lyd, eller snarere påventinga av nye noter, kom praten tydelig frem, jeg så til og med en kar prate i mobil.</p>
