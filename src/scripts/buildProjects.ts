@@ -37,7 +37,7 @@ import ProjectList from "../ProjectList"
 
 export default function () {
     return (
-        <Layout title="Blog posts">
+        <Layout title="Code projects">
             <h1>Projects</h1>
             ${indexContent}
             <ProjectList projects={${JSON.stringify(projects)}} />
