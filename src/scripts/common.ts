@@ -22,7 +22,7 @@ export async function parseIndex(nodesName: string) {
 
 export interface ContentNode {
     name: string;
-    url: string;
+    path: string;
     tags?: string[];
 }
 
@@ -32,7 +32,7 @@ export async function parseNode<T extends ContentNode>(nodesName: string, name: 
     const markdownPath = path.join('src', nodesName, name, 'index.md');
     const [meta, assembledContent] = await parseFile(markdownPath);
     meta.name = name;
-    meta.url = `/${nodesName}/${name}`;
+    meta.path = `/${nodesName}/${name}`;
     meta.tags = (meta.tags as string)?.split(', ') || [];
     const content = IS_HTML_REGEX.test(assembledContent) ? assembledContent : MARKDOWN.render(assembledContent);
     return [meta, content];

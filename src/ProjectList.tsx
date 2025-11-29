@@ -9,7 +9,7 @@ export default function ProjectList({projects}: Props) {
         <ul>
             {projects.map((project) => (
                 <li>
-                    <a href={project.url}>{project.title}</a>
+                    <a href={project.path}>{project.title}</a>
                 </li>
             ))}
         </ul>

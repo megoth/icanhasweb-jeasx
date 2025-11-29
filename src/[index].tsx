@@ -14,6 +14,9 @@ export default async function () {
               <a href="/projects">Code (projects)</a>
             </li>
             <li>
+              <a href="/talks">Talks (presentations)</a>
+            </li>
+            <li>
               <a href="/blog">Blog (old texts)</a>
             </li>
           </ul>

@@ -10,7 +10,7 @@ export default function BlogList({posts}: Props) {
         <ul>
             {sortedPosts.map((post) => (
                 <li>
-                    <a href={post.url}>{post.title}</a>
+                    <a href={post.path}>{post.title}</a>
                     &nbsp;
                     ({(new Date(post.date)).toLocaleDateString("nb-NO")})
                 </li>

@@ -3,11 +3,12 @@
   "type": "module",
   "scripts": {
     "start": "jeasx start",
-    "build": "npm run build:blog && npm run build:projects && jeasx build",
+    "build": "npm run build:blog && npm run build:projects && npm run build:talks && jeasx build",
     "dev": "jeasx dev",
     "clean": "jeasx clean",
     "build:blog": "tsx --tsconfig tsconfig.node.json src/scripts/buildBlog.ts",
-    "build:projects": "tsx --tsconfig tsconfig.node.json src/scripts/buildProjects.ts"
+    "build:projects": "tsx --tsconfig tsconfig.node.json src/scripts/buildProjects.ts",
+    "build:talks": "tsx --tsconfig tsconfig.node.json src/scripts/buildTalks.ts"
   },
   "dependencies": {
     "jeasx": "2.0.1"
