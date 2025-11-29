@@ -4,11 +4,9 @@ import {type ContentNode, parseNodes} from "./common";
 
 export interface Post extends ContentNode {
     title: string;
-    url: string;
     author: string;
     date: string;
     template: string;
-    tags: string[];
     original: string;
 }
 
@@ -39,6 +37,7 @@ import BlogList from "../BlogList"
 export default function () {
     return (
         <Layout title="Blog posts">
+            <h1>Blog posts</h1>
             <BlogList posts={${JSON.stringify(posts)}} />
         </Layout>
     )

@@ -1,14 +1,12 @@
 import path from "node:path";
 import {writeFile} from "node:fs/promises";
-import {type ContentNode, parseNodes} from "./common";
+import {type ContentNode, parseIndex, parseNodes} from "./common";
 
 export interface Project extends ContentNode {
     title: string;
-    url: string;
     status?: string;
     project?: string;
     template: string;
-    tags: string[];
     original: string;
 }
 
@@ -31,6 +29,7 @@ export default function () {
     }));
 
     const projects = projectNodes.map(([project, _]) => project);
+    const [_, indexContent] = await parseIndex('projects');
     const indexPath = path.join(projectsPath, '[index].tsx');
     await writeFile(indexPath, `
 import Layout from "../Layout"
@@ -39,6 +38,8 @@ import ProjectList from "../ProjectList"
 export default function () {
     return (
         <Layout title="Blog posts">
+            <h1>Projects</h1>
+            ${indexContent}
             <ProjectList projects={${JSON.stringify(projects)}} />
         </Layout>
     )
