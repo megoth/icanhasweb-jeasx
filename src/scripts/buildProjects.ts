@@ -12,11 +12,10 @@ export interface Project extends ContentNode {
     original: string;
 }
 
-const projectsPath = path.join('src', 'projects');
-
 try {
-    const projectNodes = await parseNodes<Project>(projectsPath);
+    const projectNodes = await parseNodes<Project>('projects');
 
+    const projectsPath = path.join('src', 'projects');
     await Promise.all(projectNodes.map(async ([project, content]) => {
         const tsxPath = path.join(projectsPath, project.name, '[index].tsx');
         await writeFile(tsxPath, `

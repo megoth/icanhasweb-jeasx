@@ -5,9 +5,10 @@ interface Props {
 }
 
 export default function BlogList({posts}: Props) {
+    const sortedPosts = posts.sort((a, b) => a.date > b.date ? 1 : -1);
     return (
         <ul>
-            {posts.map((post) => (
+            {sortedPosts.map((post) => (
                 <li>
                     <a href={post.url}>{post.title}</a>
                     &nbsp;

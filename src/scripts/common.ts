@@ -11,7 +11,8 @@ export interface ContentNode {
     name: string;
 }
 
-export async function parseNodes<T extends ContentNode>(nodesPath: string): Promise<Array<[T, string]>> {
+export async function parseNodes<T extends ContentNode>(nodesName: string): Promise<Array<[T, string]>> {
+    const nodesPath = path.join('src', nodesName)
     const nodesDir = await opendir(nodesPath);
     const nodes = [] as Array<[T, string]>;
     for await (const dirent of nodesDir) {
@@ -24,7 +25,7 @@ export async function parseNodes<T extends ContentNode>(nodesPath: string): Prom
         const meta = YAML.parse(unparsedMeta) as Project;
         meta.name = dirent.name;
         meta.tags = (meta.tags as string)?.split(', ') || [];
-        meta.url = `/projects/${dirent.name}`;
+        meta.url = `/${nodesName}/${dirent.name}`;
         const assembledContent = unparsedContent.join('---');
         const isHtmlRegex = /^(\s+)</;
         const content = isHtmlRegex.test(assembledContent) ? assembledContent : md.render(assembledContent);

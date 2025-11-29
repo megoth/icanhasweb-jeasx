@@ -12,11 +12,10 @@ export interface Post extends ContentNode {
     original: string;
 }
 
-const blogPath = path.join('src', 'blog');
-
 try {
-    const postNodes = await parseNodes<Post>(blogPath);
+    const postNodes = await parseNodes<Post>('blog');
 
+    const blogPath = path.join('src', 'blog');
     await Promise.all(postNodes.map(async ([post, content]) => {
         const tsxPath = path.join(blogPath, post.name, '[index].tsx');
         await writeFile(tsxPath, `
@@ -32,7 +31,6 @@ export default function () {
     }));
 
     const posts = postNodes.map(([post, _]) => post);
-    const sortedPosts = posts.sort((a, b) => a.date > b.date ? 1 : -1);
     const indexPath = path.join(blogPath, '[index].tsx');
     await writeFile(indexPath, `
 import Layout from "../Layout"
@@ -41,7 +39,7 @@ import BlogList from "../BlogList"
 export default function () {
     return (
         <Layout title="Blog posts">
-            <BlogList posts={${JSON.stringify(sortedPosts)}} />
+            <BlogList posts={${JSON.stringify(posts)}} />
         </Layout>
     )
 }`)
