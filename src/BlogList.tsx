@@ -1,10 +1,10 @@
-import type {Post} from "./scripts/buildBlog";
+import {type Post} from "./scripts/buildBlog";
 
 interface Props {
     posts: Array<Post>
 }
 
-export default function PostList({posts}: Props) {
+export default function BlogList({posts}: Props) {
     return (
         <ul>
             {posts.map((post) => (

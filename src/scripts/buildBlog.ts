@@ -1,9 +1,8 @@
 import path from "node:path";
-import {lstat, opendir, readFile, writeFile} from "node:fs/promises";
-import YAML from 'yaml'
-import markdownit from 'markdown-it';
+import {writeFile} from "node:fs/promises";
+import {type ContentNode, parseNodes} from "./common";
 
-export type Post = {
+export interface Post extends ContentNode {
     title: string;
     url: string;
     author: string;
@@ -13,48 +12,36 @@ export type Post = {
     original: string;
 }
 
-const postsPath = path.join('src', 'blog');
-const md = markdownit();
+const blogPath = path.join('src', 'blog');
 
 try {
-    const postsDir = await opendir(postsPath);
-    const posts = [] as Array<Post>;
-    for await (const dirent of postsDir) {
-        const postDirPath = path.join(postsPath, dirent.name);
-        if (!(await lstat(postDirPath)).isDirectory()) {
-            continue;
-        }
-        const markdownPath = path.join(postDirPath, 'index.md');
-        const [_, unparsedMeta, ...unparsedContent] = (await readFile(markdownPath, {encoding: 'utf-8'})).split('---')
-        const meta = YAML.parse(unparsedMeta) as Post;
-        meta.tags = (meta.tags as string)?.split(', ') || [];
-        meta.url = `/blog/${dirent.name}`;
-        posts.push(meta);
-        const assembledContent = unparsedContent.join('---');
-        const isHtmlRegex = /^(\s+)</;
-        const content = isHtmlRegex.test(assembledContent) ? assembledContent : md.render(assembledContent);
-        const tsxPath = path.join(postDirPath, '[index].tsx');
+    const postNodes = await parseNodes<Post>(blogPath);
+
+    await Promise.all(postNodes.map(async ([post, content]) => {
+        const tsxPath = path.join(blogPath, post.name, '[index].tsx');
         await writeFile(tsxPath, `
 import BlogPost from "../../BlogPost"
 
 export default function () {
     return (
-        <BlogPost title="${meta.title}">
+        <BlogPost title="${post.title}">
             ${content}
         </BlogPost>
     )
 }`)
-    }
+    }));
+
+    const posts = postNodes.map(([post, _]) => post);
     const sortedPosts = posts.sort((a, b) => a.date > b.date ? 1 : -1);
-    const indexPath = path.join(postsPath, '[index].tsx');
+    const indexPath = path.join(blogPath, '[index].tsx');
     await writeFile(indexPath, `
 import Layout from "../Layout"
-import PostList from "../PostList"
+import BlogList from "../BlogList"
 
 export default function () {
     return (
         <Layout title="Blog posts">
-            <PostList posts={${JSON.stringify(sortedPosts)}} />
+            <BlogList posts={${JSON.stringify(sortedPosts)}} />
         </Layout>
     )
 }`)

@@ -1,19 +1,14 @@
 import Layout from "./Layout";
+import {type Post} from "./scripts/buildBlog";
 
-interface Props {
+interface Props extends Post {
     children: undefined
-    title: string;
-    author: string;
-    date: string;
-    template: string;
-    tags: string[];
-    original: string;
-    html: string;
 }
 
 export default function BlogPost({title, children}: Props) {
     return (
         <Layout title={title} description={"description"}>
+            <h1>Blog: {title}</h1>
             {children}
         </Layout>
     )

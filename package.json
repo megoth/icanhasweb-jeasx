@@ -6,7 +6,8 @@
     "build": "npm run build:blog && jeasx build",
     "dev": "jeasx dev",
     "clean": "jeasx clean",
-    "build:blog": "tsx --tsconfig tsconfig.node.json src/scripts/buildBlog.ts"
+    "build:blog": "tsx --tsconfig tsconfig.node.json src/scripts/buildBlog.ts",
+    "build:projects": "tsx --tsconfig tsconfig.node.json src/scripts/buildProjects.ts"
   },
   "dependencies": {
     "jeasx": "2.0.1"
